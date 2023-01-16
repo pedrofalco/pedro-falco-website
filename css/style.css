@@ -1,0 +1,264 @@
+*{
+    /* background-color: #ffe5d2; */
+    color: black;
+    font-family: 'JetBrains Mono';
+}
+
+/* mobile */
+@media (max-width: 768px) {
+
+    body{
+        background-color: #fff2ea;
+        margin: 0px;
+        margin-top: 20px;
+    }
+
+    .root {
+    	/* background-color: blue; */
+		max-width: 100%;
+		margin: auto 8px auto 8px;	}
+
+    p{
+        font-size: 65%;
+        line-height: 150%;
+    }
+
+    div.tabs {
+        /* background-color: lightgreen; */
+        font-size: 65%;
+        text-align: right;
+        text-decoration: none;
+        margin: 0px;
+        margin-right: 7px;
+    }
+
+    #projects:hover {
+        background-color: rgb(35, 60, 141);
+        color: #fff2ea;
+    }
+    #lab:hover {
+        background-color: rgb(35, 60, 141);
+        color: #fff2ea;
+
+    }
+    #texts:hover {
+        background-color: rgb(35, 60, 141);
+        color: #fff2ea;
+
+    }
+    #about:hover {
+        background-color: rgb(35, 60, 141);
+        color: #fff2ea;
+    }
+
+    p.header {
+        font-size: 65%;
+        text-align: center;
+        overflow: hidden; 
+        white-space: nowrap;
+        margin-bottom: 15px;
+    }
+    h3{
+        font-size: 75%;
+        line-height: 150%;
+        margin-bottom: 0;
+    }
+    a{
+        text-decoration: none;
+    }
+
+    hr {
+        border-top: 1px dashed #000;
+        border-bottom: 0px dashed lightpink;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    .icons {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    #lang-size {
+        font-size: 65%;
+    }
+
+    .lang-div{
+        position: absolute;
+        top: 15px;
+        margin-left: 7px;
+    }
+    .language#es{
+        font-size: 55%;  
+        background-color: #fff2ea;
+        border: none;
+        cursor:pointer;
+        background-image: url(../media/flag-argentina.png);
+        background-size:100% 100%;
+    }
+    .language#en{
+        font-size: 55%;  
+        background-color: #fff2ea;
+        border: none;
+        cursor:pointer;
+        background-image: url(../media/flag-united-states.png);
+        background-size:100% 100%;
+    }
+    .language#es:hover {
+        background-color: rgb(35, 60, 141);
+        color: #fff2ea;
+    }
+    .language#en:hover {
+        background-color: rgb(35, 60, 141);
+        color: #fff2ea;
+    }
+    .home {
+        position: absolute;
+        font-size: 65%;  
+        left: 50%;
+        transform: translate(-50%, 0%); 
+    }
+    .home:hover {
+        background-color: rgb(35, 60, 141);
+    }
+
+    .footer{
+        font-size: 10px;
+        text-align: center;
+        margin-top: 20px;
+        color: black;
+        line-height: 150%;
+      }
+}
+
+/* desktop */
+@media (min-width: 768px) {
+
+    body{
+        background-color: #fff2ea;
+        margin: 0px;
+        margin-top: 20px;
+    }
+
+    .root {
+    	/* background-color: blue; */
+		max-width: 50%;
+        margin: auto;
+	}
+    
+    p{
+        /* background-color: lightgreen; */
+        font-size: 100%;
+        line-height: 180%;   
+    }
+    
+    div.tabs {
+        /* background-color: lightgreen; */
+        font-size: 100%;
+        text-align: right;
+        text-decoration: none;
+        margin: 10px;
+    }
+    
+    #projects:hover {
+        background-color: rgb(35, 60, 141);
+        color: #fff2ea;
+    }
+    #lab:hover {
+        background-color: rgb(35, 60, 141);
+        color: #fff2ea;
+    
+    }
+    #texts:hover {
+        background-color: rgb(35, 60, 141);
+        color: #fff2ea;
+    
+    }
+    #about:hover {
+        background-color: rgb(35, 60, 141);
+        color: #fff2ea;
+    
+    }
+    
+    a {
+        text-decoration: none;
+        padding: 3px;
+    }
+    
+    hr {
+        border-top: 1px dashed #000;
+        border-bottom: 0px dashed lightpink;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    
+    p.header {
+        text-align: center;
+        overflow: hidden; 
+        white-space: nowrap;
+        margin-bottom: 15px;
+    }
+    
+    h3{
+        margin-bottom: 0;
+    }
+    
+    .icons {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    #lang-size {
+        font-size: 100%;
+      }
+    
+    .lang-div{
+        position: absolute;
+        margin-left: 10px;
+    }
+    .language#es{
+        font-size: 100%;  
+        background-color: #fff2ea;
+        border: none;
+        cursor:pointer;
+        background-image: url(../media/flag-argentina.png);
+        background-size:100% 100%;
+    }
+    .language#en{
+        font-size: 100%;  
+        background-color: #fff2ea;
+        border: none;
+        cursor:pointer;
+        background-image: url(../media/flag-united-states.png);
+        background-size:100% 100%;
+    }
+      
+    .language#es:hover {
+        background-color: rgb(35, 60, 141);
+        color: #fff2ea;
+    }
+    .language#en:hover {
+        background-color: rgb(35, 60, 141);
+        color: #fff2ea;
+    }
+    .home{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0%); 
+    }
+    .home:hover {
+        background-color: rgb(35, 60, 141);
+    }
+    .footer{
+        font-size: 12px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        color: black;
+    }
+    p#footer{
+        margin: 0px;
+     }
+}
