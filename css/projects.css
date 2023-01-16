@@ -60,7 +60,7 @@
 	}
 
 	.video-title#observacion-nube{
-		font-size: 60%;
+		font-size: 50%;
 	}
 
 	.video-description {
@@ -127,6 +127,10 @@
 		font-weight: bold;
 		color: #fff2ea;
 		background: rgb(10, 10, 10);
+	}
+
+	.video-title#observacion-nube{
+		font-size: 150%;
 	}
 	
 	.video-description {

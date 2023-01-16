@@ -37,6 +37,10 @@
         margin:auto;
     }
 
+    #bio {
+        font-size: 80%;
+    }
+
     .contact-div {
         /* background-color:lightpink; */
         width: 50%;
