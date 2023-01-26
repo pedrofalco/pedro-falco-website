@@ -126,5 +126,5 @@ var translations = {
 		"'Ráfagas' es una instalación interactiva que responde al movimiento de las personas. Al moverse, lxs usuarixs, ejecutan un algoritmo que devuelve el rastro de esa ráfaga. La imagen resultante, inmóvil, es la creación de interesantes follajes arrastrados por el viento.",
 	author: "diseñada por Pedro Falco @ studio.falko",
 	cookies:
-		"Esta página estuvo diseñada contemplando tu privacidad, sin cookies, publicidad o pedido de ningun tipo. En caso de que realmente te importe, la web está hosteada @ glitch.com y open source @ github.com/pedrofalco 🤝",
+		"Página diseñada contemplando tu privacidad, sin cookies, publicidad o pedido de ningun tipo. Sólo cachea las imágenes. La web está hosteada @ netlify.com y open source @ github.com/pedrofalco 🤝",
 };

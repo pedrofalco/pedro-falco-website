@@ -125,5 +125,5 @@ var translations = {
 	rafagas_0:
 		"Descripción: Ráfagas es una instalación interactiva que responde al movimiento de las personas que se acercan. Al moverse, lxs usuarixs, ejecutan un algoritmo que devuelve el rastro de esa ráfaga. La imagen resultante, inmóvil, es la creación de interesantes follajes arrastrados por el viento.",
 	cookies:
-		"This site was designed keeping your privacy in mind, with no cookies, advertising or requests of any kind. In case you really care, the site is hosted @ glitch.com and open source @ github.com/pedrofalco 🤝",
+		"The site was designed keeping your privacy in mind, with no cookies, advertising or requests of any kind. It only caches the images. The website is hosted @ netlify.com and open source @ github.com/pedrofalco 🤝",
 };

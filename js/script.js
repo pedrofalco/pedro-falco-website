@@ -2,7 +2,6 @@ let time = new Date().getHours();
 let offset = 0;
 let normalized_time = (time - offset) / 24;
 // normalized_time = Math.sin(Math.PI * normalized_time).toFixed(5);
-console.log(`normalized_time: ${time / 24}, sin_time: ${normalized_time}`);
 
 const canvas = document.createElement("canvas");
 const root = document.getElementById("root");
@@ -21,8 +20,6 @@ if (time >= 12) {
 	current_time.style.color = `rgba(${textColorR}, ${textColorG}, ${textColorB}, 0.8)`;
 	text.style.color = `rgba(${textColorR}, ${textColorG}, ${textColorB}, 0.8)`;
 }
-console.log("textcolor", textColor);
-
 // -------------------- THREE.JS SKETCH --------------------
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight - 75;
