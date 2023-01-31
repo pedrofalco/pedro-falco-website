@@ -1,12 +1,14 @@
 window.addEventListener("load", () => {
+
+	let starred_projects = 9; 
 	let display = document.getElementById("display");
 	let video_container = Array.from(display.children);
 
-	let shuffle_video_important = video_container.slice(0, 8).sort(() => {
+	let shuffle_video_important = video_container.slice(0, starred_projects).sort(() => {
 		return Math.random() - 0.5;
 	});
 	let shuffle_video_sub = video_container
-		.slice(8, video_container.length)
+		.slice(starred_projects, video_container.length)
 		.sort(() => {
 			return Math.random() - 0.5;
 		});

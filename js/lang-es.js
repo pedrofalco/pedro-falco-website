@@ -11,6 +11,7 @@ var translations = {
 	gen_art: "Arte Generativo",
 	vr: "Experiencia VR",
 	inst: "Instalación Interactiva",
+	installation: "Instalación",
 	web_app: "Aplicación Web",
 	about_description: "Diseñador, Artista y Docente.",
 	about_header: "Escribo imágenes con computadoras.",
@@ -124,6 +125,11 @@ var translations = {
 		"La aplicación funciona conectándose a la API de Google para buscar mails dentro mi carpeta de spam. Ese material es usado como prompt para generar una imagen con DALL-E. Para esto, 'Entre la basura' se conecta a la API de OpenAi y genera una imagen en tiempo real.",
 	rafagas_0:
 		"'Ráfagas' es una instalación interactiva que responde al movimiento de las personas. Al moverse, lxs usuarixs, ejecutan un algoritmo que devuelve el rastro de esa ráfaga. La imagen resultante, inmóvil, es la creación de interesantes follajes arrastrados por el viento.",
+	biorremediaciones_0: "“¿Es posible equilibrar nuestra relación con el ecosistema? ¿Cómo podemos sanar los daños que estamos realizando a la biosfera?Estas son quizás las preguntas más urgentes de nuestro tiempo, en el que es evidente que la aceleración exponencial del modelo no sustentable en el que vivimos está llegando a un límite físico irreversible como reflejo de una profunda crisis de sentido de la sociedad capitalista”. Juan Pablo Ferlat.",
+	biorremediaciones_1: "La serie Biorremediaciones es un proyecto de investigación que vincula las nuevas tecnologías de inteligencia artificial y hongos con capacidades de biorremediar degradando contaminantes del ambiente en el que el artista cultiva hongos y registra su evolución con distintas técnicas de captura fotográfica.",
+	biorremediaciones_2: "Video para cuatro pantallas. Duración: 6:35”. Sin sonido. Instalado en Openhouse by Openbank, Buenos Aires (2022).",	
+	biorremediaciones_3: "Desarrollo en TouchDesigner: Pedro Falco. Curaduría: Cristian Reynaga.",	
+	biorremediaciones_4: "Fragmento del video",	
 	author: "diseñada por Pedro Falco @ studio.falko",
 	cookies:
 		"Página diseñada contemplando tu privacidad, sin cookies, publicidad o pedido de ningun tipo. Sólo cachea las imágenes. La web está hosteada @ netlify.com y open source @ github.com/pedrofalco 🤝",

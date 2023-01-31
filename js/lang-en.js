@@ -10,6 +10,7 @@ var translations = {
 	gen_art: "Generative Art",
 	vr: "VR Experience",
 	inst: "Interactive Installation",
+	installation: "Installation",
 	web_app: "Web App",
 	about_description: "Designer, Artist and Educator.",
 	about_header: "I write images with computers.",
@@ -117,13 +118,18 @@ var translations = {
 		'"Make rhizomes, not roots, never plant! Don’t sow, grow offshoots! Don’t be one or multiple, be multiplicities! Run lines, never plot a point! Speed turns the point into a line! Be quick, even when standing still!"- Gilles Deleuze and Félix Guattari in Capitalism and Schizophrenia (1972–1980)',
 	momentum_0:
 		"Every drop of thought,	that you can't think, shake my bones. They slip out of my pockets.",
-	author: "designed by Pedro Falco @ studio.falko",
-	basura_0:
+		basura_0:
 		"'Entre la basura' is a program to see what remains invisible among the spam I receive everyday.",
-	basura_1:
+		basura_1:
 		"The app works by connecting to the Google API to search for mails inside my spam folder. That material is used as a prompt to generate an image with DALL-E. For this, 'Entre la basura' connects to the OpenAi API and generates an image in real time.",
-	rafagas_0:
+		rafagas_0:
 		"Descripción: Ráfagas es una instalación interactiva que responde al movimiento de las personas que se acercan. Al moverse, lxs usuarixs, ejecutan un algoritmo que devuelve el rastro de esa ráfaga. La imagen resultante, inmóvil, es la creación de interesantes follajes arrastrados por el viento.",
-	cookies:
+		biorremediaciones_0: "\"Is it possible to balance our relationship with the ecosystem? How can we heal the damage we are doing to the biosphere? These are perhaps the most urgent questions of our time, in which it's evident that the exponential acceleration of the unsustainable model in which we live is reaching an irreversible physical limit as a reflection of a profound crisis of meaning of capitalist society\". Juan Pablo Ferlat.",
+		biorremediaciones_1: "Bioremediations series is a research project that links new artificial intelligence technologies and fungi with bioremediation capabilities by degrading pollutants in the environment in which the artist cultivates fungi and records their evolution with different photographic capture techniques",
+		biorremediaciones_2: "Four screen video wall. Duration: 6:35\". No sound. Installed at Openhouse by Openbank, Buenos Aires (2022).",	
+		biorremediaciones_3: "TouchDesigner development: Pedro Falco. Curator: Cristian Reynaga.",	
+		biorremediaciones_4: "Fragment of the video",	
+		author: "designed by Pedro Falco @ studio.falko",
+		cookies:
 		"The site was designed keeping your privacy in mind, with no cookies, advertising or requests of any kind. It only caches the images. The website is hosted @ netlify.com and open source @ github.com/pedrofalco 🤝",
 };
