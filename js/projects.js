@@ -3,6 +3,25 @@ window.addEventListener("load", () => {
 	let starred_projects = 9; 
 	let display = document.getElementById("display");
 	let video_container = Array.from(display.children);
+	let videos = document.getElementsByTagName("video");
+
+	if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+		// true for mobile device
+		// document.write("mobile device");
+		for (let vid of videos) {	
+			console.log(vid)
+			vid.removeAttribute('autoplay');		
+		}
+	}else{
+		// false for not mobile device
+		// document.write("not mobile device");
+		for (let vid of videos) {	
+			console.log(vid)
+			vid.setAttribute('autoplay', 'true');
+		}
+	  }
+
+
 
 	let shuffle_video_important = video_container.slice(0, starred_projects).sort(() => {
 		return Math.random() - 0.5;

@@ -4,8 +4,8 @@
 
 	.video-container {
 		position: relative;
-    	width: 100%;
-    	height: 100%; 
+		width: 100%;
+		height: 100%;
 		margin-bottom: 50px;
 	}
 
@@ -26,9 +26,9 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content:center;
-		opacity: 0;
-		transition: opacity .5s;
+		justify-content: center;
+		opacity: 0.8;
+		/* transition: opacity .5s; */
 	}
 
 	.overlay-header--blur {
@@ -39,14 +39,14 @@
 		background: rgb(10, 10, 10);
 	}
 
-	.overlay-header>* {
+	/* .overlay-header>* {
 		transform: translateY(20px);
 		transition: transform 0.25s;
-	}
+	} */
 
-	.overlay-header:hover {
+	/* .overlay-header:hover {
 		opacity: 0.9;
-	}
+	} */
 
 	.overlay-header:hover>* {
 		transform: translateY(0);
@@ -59,7 +59,7 @@
 		background: rgb(10, 10, 10);
 	}
 
-	.video-title#observacion-nube{
+	.video-title#observacion-nube {
 		font-size: 50%;
 	}
 
@@ -72,20 +72,21 @@
 
 /* desktop */
 @media (min-width: 768px) {
-		
+
 	.video-container {
 		position: relative;
 		width: 100%;
-		height: 100%; 
+		height: 100%;
 		margin-bottom: 100px;
 	}
+
 	.video {
 		display: block;
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
 	}
-	
+
 	.overlay-header {
 		position: absolute;
 		top: 0;
@@ -96,32 +97,32 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content:center;
+		justify-content: center;
 		opacity: 0;
 		transition: opacity .5s;
 	}
-	
+
 	.overlay-header--blur {
 		backdrop-filter: blur(5px);
 	}
-	
+
 	.overlay-header--primary {
 		background: rgb(10, 10, 10);
 	}
-	
+
 	.overlay-header>* {
 		transform: translateY(20px);
 		transition: transform 0.25s;
 	}
-	
+
 	.overlay-header:hover {
 		opacity: 0.9;
 	}
-	
+
 	.overlay-header:hover>* {
 		transform: translateY(0);
 	}
-	
+
 	.video-title {
 		font-size: 200%;
 		font-weight: bold;
@@ -129,10 +130,10 @@
 		background: rgb(10, 10, 10);
 	}
 
-	.video-title#observacion-nube{
+	.video-title#observacion-nube {
 		font-size: 150%;
 	}
-	
+
 	.video-description {
 		font-size: 100%;
 		color: #fff2ea;
