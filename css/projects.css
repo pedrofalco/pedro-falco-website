@@ -2,6 +2,10 @@
 
 @media (max-width: 768px) {
 
+	body {
+		-webkit-text-size-adjust: 100%;
+	}
+
 	.video-container {
 		position: relative;
 		width: 100%;
@@ -39,15 +43,6 @@
 		background: rgb(10, 10, 10);
 	}
 
-	/* .overlay-header>* {
-		transform: translateY(20px);
-		transition: transform 0.25s;
-	} */
-
-	/* .overlay-header:hover {
-		opacity: 0.9;
-	} */
-
 	.overlay-header:hover>* {
 		transform: translateY(0);
 	}
@@ -60,7 +55,8 @@
 	}
 
 	.video-title#observacion-nube {
-		font-size: 50%;
+		font-size: 65%;
+		font-weight: 500
 	}
 
 	.video-description {
