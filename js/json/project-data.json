@@ -1,0 +1,151 @@
+{
+    "Projects": {
+        "Foliage":{
+            "project_name":"Foliage",
+            "project_type":"gen_art",
+            "project_file":"../media/foliage-preview.png",
+            "project_page":"proj/foliage.html",
+            "project_media":"image"
+        },
+        "Asterisms":{
+            "project_name":"Asterisms",
+            "project_type":"gen_art",
+            "project_file":"../media/asterisms-preview.mp4#t=2.5",
+            "project_page":"proj/asterisms.html",
+            "project_media":"video"
+        },
+        "Nube":{
+            "project_name":"La Nube",
+            "project_type":"inst",
+            "project_file":"../media/la-nube-registro.mp4#t=2.55",
+            "project_page":"proj/la-nube.html",
+            "project_media":"video"
+        },
+        "Expulso":{
+            "project_name":"Expulso",
+            "project_type":"inst",
+            "project_file":"../media/expulso-teaser.mp4#t=1.",
+            "project_page":"proj/expulso.html",
+            "project_media":"video"
+        },
+        "Basurero":{
+            "project_name":"Entre la basura",
+            "project_type":"web_app",
+            "project_file":"../media/entre-la-basura-ur-preview.mp4#t=6.",
+            "project_page":"proj/entre-basura.html",
+            "project_media":"video"
+        },
+        "Rafagas":{
+            "project_name":"Rafagas",
+            "project_type":"inst",
+            "project_file":"../media/rafagas-registro-1.png",
+            "project_page":"proj/rafagas.html",
+            "project_media":"image"
+        },
+        "Boost":{
+            "project_name":"Boost",
+            "project_type":"vr",
+            "project_file":"../media/boost-trailer.mp4#t=75.",
+            "project_page":"proj/boost.html",
+            "project_media":"video"
+        },
+        "Observaciones":{
+            "project_name":"Observaciones sobre el ruido en la condensacion de una nube",
+            "project_type":"gen_art",
+            "project_file":"../media/observaciones-sobre-el-ruido-en la-condensación-de-una-nube-banner.png",
+            "project_page":"proj/condensacion-nube.html",
+            "project_media":"image"
+        },
+        "Biorremediaciones":{
+            "project_name":"Biorremediaciones de Juan Pablo Ferlat",
+            "project_type":"gen_art",
+            "project_file":"../media/ferlat-biorremediaciones-2.png",
+            "project_page":"proj/biorremediaciones.html",
+            "project_media":"image"
+        },
+        "Aurora Borealis":{
+            "project_name":"Aurora Borealis",
+            "project_type":"gen_art",
+            "project_file":"../media/aurora-borealis_banner.png",
+            "project_page":"proj/aurora-borealis.html",
+            "project_media":"image"
+        },
+        "Rhizome":{
+            "project_name":"Rhizome",
+            "project_type":"gen_art",
+            "project_file":"../media/rhizome_banner.png",
+            "project_page":"proj/rhizome.html",
+            "project_media":"image"
+        },
+        "Kinetic Sculpture":{
+            "project_name":"Kinetic Sculpture",
+            "project_type":"gen_art",
+            "project_file":"../media/kinectic-sculpture-banner.png",
+            "project_page":"proj/kinetic-sculpture.html",
+            "project_media":"image"
+        },
+        "Data Sculpture":{
+            "project_name":"Data Sculpture",
+            "project_type":"gen_art",
+            "project_file":"../media/data-sculpture-banner.png",
+            "project_page":"proj/data-sculpture.html",
+            "project_media":"image"
+        },
+        "Paranoia":{
+            "project_name":"Paranoia",
+            "project_type":"gen_art",
+            "project_file":"../media/paranoia-banner.png",
+            "project_page":"proj/paranoia.html",
+            "project_media":"image"
+        },
+        "The persistence of reality":{
+            "project_name":"The persistence of reality",
+            "project_type":"gen_art",
+            "project_file":"../media/persistence-reality-banner.png",
+            "project_page":"proj/persistence-reality.html",
+            "project_media":"image"
+        },
+        "Drifting from one thought":{
+            "project_name":"Drifting from one thought",
+            "project_type":"gen_art",
+            "project_file":"../media/drifting-banner.png",
+            "project_page":"proj/drifting.html",
+            "project_media":"image"
+        },
+        "Lockdown":{
+            "project_name":"Lockdown",
+            "project_type":"gen_art",
+            "project_file":"../media/lockdown-banner.png",
+            "project_page":"proj/lockdown.html",
+            "project_media":"image"
+        },
+        "Ether Crib":{
+            "project_name":"Ether Crib",
+            "project_type":"gen_art",
+            "project_file":"../media/ether-crib-banner.png",
+            "project_page":"proj/ether-crib.html",
+            "project_media":"image"
+        },
+        "Promised not to hesitate":{
+            "project_name":"Promised not to hesitate",
+            "project_type":"gen_art",
+            "project_file":"../media/promised-hesitate-banner.png",
+            "project_page":"proj/promised-hesitate.html",
+            "project_media":"image"
+        },
+        "Gray Matter":{
+            "project_name":"Gray Matter",
+            "project_type":"gen_art",
+            "project_file":"../media/gray-matter-banner.png",
+            "project_page":"proj/gray-matter.html",
+            "project_media":"image"
+        },
+        "Momentum":{
+            "project_name":"Momentum",
+            "project_type":"gen_art",
+            "project_file":"../media/momentum-banner.png",
+            "project_page":"proj/momentum.html",
+            "project_media":"image"
+        }
+    }
+}
