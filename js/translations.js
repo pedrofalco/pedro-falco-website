@@ -1,11 +1,3 @@
-// let nLang = (
-// 	navigator.languages
-// 		? navigator.languages[0]
-// 		: navigator.language || navigator.userLanguage
-// ).split("-")[0];
-
-// console.log(navigator.userLanguage);
-
 let language_es = document.getElementById("es");
 let language_en = document.getElementById("en");
 
@@ -33,4 +25,19 @@ const getData = async (lang) => {
 		item.textContent = translations[`${item.dataset.translation}`];
 	});
 };
-onload = getData("es");
+
+onload = () => {
+
+	let userLang = navigator.language || navigator.userLanguage; 
+	console.log("The language is: " + userLang);
+
+	if (userLang == 'es') {
+		language_en.style.display = "none";
+		language_es.style.display = "inline";
+		getData("es") 
+	} else {
+		language_es.style.display = "none";
+		language_en.style.display = "inline";
+		getData("en")
+	};
+};
